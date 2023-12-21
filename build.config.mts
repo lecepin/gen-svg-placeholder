@@ -6,7 +6,7 @@ export default defineConfig({
     [
       "@ice/pkg-plugin-docusaurus",
       {
-        baseUrl: "./",
+        baseUrl: "/gen-svg-placeholder/build/",
       },
     ],
   ],
