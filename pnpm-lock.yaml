@@ -4,24 +4,22 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@ice/jsx-runtime':
-    specifier: ^0.2.0
-    version: 0.2.2(react@18.2.0)
-  '@swc/helpers':
-    specifier: ^0.5.1
-    version: 0.5.3
-
 devDependencies:
   '@applint/spec':
     specifier: ^1.2.3
     version: 1.2.3(eslint@8.56.0)(stylelint@15.11.0)(typescript@5.3.3)
+  '@ice/jsx-runtime':
+    specifier: ^0.2.0
+    version: 0.2.2(react@18.2.0)
   '@ice/pkg':
     specifier: ^1.0.0
     version: 1.5.17(@swc/helpers@0.5.3)
   '@ice/pkg-plugin-docusaurus':
-    specifier: ^1.0.0
+    specifier: ^1.4.16
     version: 1.4.16(@algolia/client-search@4.22.0)(eslint@8.56.0)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)(webpack@5.89.0)
+  '@swc/helpers':
+    specifier: ^0.5.1
+    version: 0.5.3
   eslint:
     specifier: ^8.0.0
     version: 8.56.0
@@ -1644,6 +1642,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
+    dev: true
 
   /@babel/template@7.22.15:
     resolution: {integrity: sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==}
@@ -2798,6 +2797,7 @@ packages:
     dependencies:
       react: 18.2.0
       style-unit: 3.0.5
+    dev: true
 
   /@ice/pkg-plugin-docusaurus@1.4.16(@algolia/client-search@4.22.0)(eslint@8.56.0)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)(webpack@5.89.0):
     resolution: {integrity: sha512-TJXWUXrMM3KsXQNOlOrWa1P/syciH5oa+RunxXdqpSe2heBd5kdBZsbqZN86ahWooHMemcIS09RRF26SAypo4g==}
@@ -3465,6 +3465,7 @@ packages:
     resolution: {integrity: sha512-FaruWX6KdudYloq1AHD/4nU+UsMTdNE8CKyrseXWEcgjDAbvkwJg2QGPAnfIJLIWsjZOSPLOAykK6fuYp4vp4A==}
     dependencies:
       tslib: 2.6.2
+    dev: true
 
   /@szmarczak/http-timer@1.1.2:
     resolution: {integrity: sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==}
@@ -3917,6 +3918,7 @@ packages:
 
   /@uni/env@1.1.1:
     resolution: {integrity: sha512-oQGRQg3cFVb6ByppV0WVue/BE98cw0xvAniX9L0wQtzU94RvZg9/GpkFIDwrlgcvzXlTgUPTTMG9B/riiiFQyQ==}
+    dev: true
 
   /@webassemblyjs/ast@1.11.6:
     resolution: {integrity: sha512-IN1xI7PwOvLPgjcf180gC1bqn3q/QaOCwYUahIOhbYUu8KA/3tw2RT/T0Gidi1l7Hhj5D/INhJxiICObqpMu4Q==}
@@ -7767,6 +7769,7 @@ packages:
 
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: true
 
   /js-yaml@3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
@@ -8061,6 +8064,7 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+    dev: true
 
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
@@ -9953,6 +9957,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: true
 
   /read-pkg-up@8.0.0:
     resolution: {integrity: sha512-snVCqPczksT0HS2EC+SxUndvSzn6LRCwpfSvLrIfR5BKDQQZMaI6jPRC9dYvYFDRAuFEAnkwww8kBBNE/3VvzQ==}
@@ -10057,6 +10062,7 @@ packages:
 
   /regenerator-runtime@0.14.1:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
+    dev: true
 
   /regenerator-transform@0.15.2:
     resolution: {integrity: sha512-hfMp2BoF0qOk3uc5V20ALGDS2ddjQaLrdl7xrGXvAIow7qeWRM2VA2HuCHkUKk9slq3VwEwLNK3DFBqDfPGYtg==}
@@ -11020,6 +11026,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.6
       universal-env: 3.3.3
+    dev: true
 
   /stylehacks@5.1.1(postcss@8.4.32):
     resolution: {integrity: sha512-sBpcd5Hx7G6seo7b1LkpttvTz7ikD0LlH5RmdcBNb6fFR0Fl7LQwHDFr300q4cwUqi+IYrFGmsIHieMBfnN/Bw==}
@@ -11312,6 +11319,7 @@ packages:
 
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: true
 
   /tsutils@3.21.0(typescript@5.3.3):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
@@ -11598,6 +11606,7 @@ packages:
     engines: {npm: '>=3.0.0'}
     dependencies:
       '@uni/env': 1.1.1
+    dev: true
 
   /universalify@0.1.2:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}

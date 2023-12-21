@@ -41,16 +41,15 @@
     "web",
     "library"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "@swc/helpers": "^0.5.1",
-    "@ice/jsx-runtime": "^0.2.0",
     "@applint/spec": "^1.2.3",
+    "@ice/jsx-runtime": "^0.2.0",
     "@ice/pkg": "^1.0.0",
-    "@ice/pkg-plugin-docusaurus": "^1.0.0",
+    "@ice/pkg-plugin-docusaurus": "^1.4.16",
+    "@swc/helpers": "^0.5.1",
+    "eslint": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "eslint": "^8.0.0",
     "stylelint": "^15.0.0"
   },
   "publishConfig": {
