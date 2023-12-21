@@ -1,0 +1,60 @@
+{
+  "name": "gen-svg-placeholder",
+  "version": "0.1.0",
+  "description": "svg 占位图直接生成供 img src 使用",
+  "files": [
+    "esm",
+    "es2017",
+    "cjs",
+    "dist"
+  ],
+  "main": "esm/index.js",
+  "module": "esm/index.js",
+  "types": "esm/index.d.ts",
+  "exports": {
+    ".": {
+      "es2017": {
+        "types": "./es2017/index.d.ts",
+        "default": "./es2017/index.js"
+      },
+      "default": {
+        "types": "./esm/index.d.ts",
+        "default": "./esm/index.js"
+      }
+    },
+    "./*": "./*"
+  },
+  "sideEffects": [
+    "dist/*"
+  ],
+  "scripts": {
+    "start": "ice-pkg start",
+    "build": "ice-pkg build",
+    "prepublishOnly": "npm run build",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:fix": "npm run eslint -- --fix",
+    "stylelint": "stylelint \"**/*.{css,scss,less}\"",
+    "lint": "npm run eslint && npm run stylelint"
+  },
+  "keywords": [
+    "ice",
+    "web",
+    "library"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@swc/helpers": "^0.5.1",
+    "@ice/jsx-runtime": "^0.2.0",
+    "@applint/spec": "^1.2.3",
+    "@ice/pkg": "^1.0.0",
+    "@ice/pkg-plugin-docusaurus": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "eslint": "^8.0.0",
+    "stylelint": "^15.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
