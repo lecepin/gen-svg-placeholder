@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgen_svg_placeholder=self.webpackChunkgen_svg_placeholder||[]).push([[539],{8252:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"demo-pages"}')}}]);
