@@ -13,3 +13,5 @@ $ npm i gen-svg-placeholder --save
 ```js
 import GenSvgPlaceholder from "gen-svg-placeholder";
 ```
+
+[Doc](https://lecepin.github.io/gen-svg-placeholder/build/)
